@@ -23,6 +23,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :private_network, ip: "192.168.100.101"
 
   # Shared folder
-  config.vm.synced_folder "../project", "/var/www", create: "true"
+  config.vm.synced_folder "../application", "/var/www", create: "true"
 
 end

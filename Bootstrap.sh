@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-echo "Provision VM START"
+echo "Provision VM"
 echo "=========================================="
+echo ""
 
 sudo apt-get update
 
-#install nodjs
+#install nodejs
 sudo apt-get update
 sudo apt-get install -y python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
@@ -21,5 +22,3 @@ sudo apt-get update
 
 echo ""
 echo "=========================================="
-echo "Node setup:"
-echo "Provision VM finished"
